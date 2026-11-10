@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0f1a">
+<title>GLOBAL SERVICES – AC Repair & Service, Bhubaneswar</title>
+<meta name="description" content="AC repair, servicing and installation in Bhubaneswar. Call, WhatsApp or pay online.">
+
+<!-- Google Search Console Verification (Apna code niche wali line me daalo) -->
+<meta name="google-site-verification" content="YAHAN_APNA_GOOGLE_CODE_DAALO" />
+
+<!-- PWA Manifest Link -->
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="https://i.ibb.co/20ww0njW/file-00000000656c8210aa5f63d1bcbde23a.png ">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+firebase.apps.length||firebase.initializeApp({apiKey:"AIzaSyA4F7Z91GguzUr1UYu3gT-NXzne3NEva7Y",authDomain:"global-services-556f9.firebaseapp.com",projectId:"global-services-556f9",storageBucket:"global-services-556f9.firebasestorage.app",messagingSenderId:"388494680865",appId:"1:388494680865:web:db010a038874640b865460"});
+const db=firebase.database();
+</script>
+<style>
+:root{--bg:#0a0f1a;--p:#121a2b;--p2:#182238;--ln:#25314b;--tx:#f1f4fa;--mu:#8e9bb5;--g:#e3b95c;--g2:#c99a35;--ok:#3ecf8e;--rd:#ef6a5e}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:#05080f}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:var(--tx)}
+button,input,textarea{font:inherit;color:inherit}
+.app{max-width:480px;margin:auto;height:100dvh;background:var(--bg) radial-gradient(520px 260px at 50% -90px,rgba(227,185,92,.16),transparent);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.scroll{flex:1;overflow-y:auto;padding:0 16px 96px}
+.hid{display:none!important}
+header{display:flex;align-items:center;justify-content:space-between;padding:calc(14px + env(safe-area-inset-top)) 16px 10px}
+.brand{font-weight:800;font-size:19px;letter-spacing:.3px;display:flex;align-items:center;gap:9px}
+.logo{width:34px;height:34px;border-radius:11px;background:linear-gradient(135deg,#f2c766,#c99a35);color:#1b1405;display:grid;place-items:center;font-size:16px}
+.live{font-size:12px;color:var(--mu);display:flex;align-items:center;gap:6px}.live i{width:8px;height:8px;border-radius:50%;background:var(--rd)}.live.on i{background:var(--ok);box-shadow:0 0 8px var(--ok)}
+.hero{margin:6px 0 14px;padding:18px;border-radius:20px;background:linear-gradient(135deg,#1b2540,#121a2b);border:1px solid var(--ln)}
+.hero h1{margin:0 0 4px;font-size:22px;line-height:1.2}.hero p{margin:0;color:var(--mu);font-size:13px}
+.srch{display:flex;align-items:center;gap:10px;background:var(--p);border:1px solid var(--ln);border-radius:14px;padding:0 14px;margin-bottom:10px}
+.srch:focus-within{border-color:var(--g);box-shadow:0 0 0 3px rgba(227,185,92,.15)}
+.srch input{flex:1;background:none;border:0;outline:0;padding:13px 0;font-size:14px}.srch button{background:none;border:0;color:var(--g);font-size:16px;cursor:pointer}
+.srch button.listening{color:var(--rd);animation:pl 1s infinite}@keyframes pl{50%{opacity:.4}}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:12.5px;color:var(--mu);margin-bottom:12px}
+.row span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lk{background:none;border:0;color:var(--g);font-weight:700;font-size:12.5px;cursor:pointer;white-space:nowrap}
+.chip{border:1px solid var(--ln);background:var(--p);border-radius:30px;padding:7px 14px;font-size:12.5px;cursor:pointer;margin-bottom:12px}.chip.on{border-color:var(--g);color:var(--g)}
+.card{background:linear-gradient(180deg,var(--p2),var(--p));border:1px solid var(--ln);border-radius:20px;padding:14px;margin-bottom:14px;box-shadow:0 10px 28px rgba(0,0,0,.35)}
+.top{display:flex;gap:12px;cursor:pointer}
+.ph{width:96px;height:96px;border-radius:14px;object-fit:cover;background:#0f1626;border:1px solid var(--ln);flex-shrink:0}
+.inf{min-width:0;flex:1}.inf h2{margin:0;font-size:16px;line-height:1.25}
+.m{color:var(--mu);font-size:12.5px;margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bd{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;background:rgba(227,185,92,.12);color:var(--g);margin-top:7px}
+.rt{background:rgba(62,207,142,.14);color:var(--ok)}
+.pr{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px;padding:11px 13px;border-radius:13px;background:#0e1524;border:1px solid var(--ln);font-size:13px;font-weight:600}
+.pr small{display:block;color:var(--mu);font-weight:400;font-size:11px}.pr b{color:var(--g);font-size:17px;white-space:nowrap}
+.acts{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:12px}
+.b{border:0;border-radius:12px;padding:11px 4px;font-weight:700;font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;color:#fff;background:#243049}
+.b:active{transform:scale(.97)}.b.gold{background:linear-gradient(135deg,#f2c766,#d09a2f);color:#1b1405}.b.wa{background:#1fa855}.b.line{background:none;border:1px solid var(--ln);color:var(--tx)}
+.b.big{width:100%;padding:14px;font-size:14px;margin-top:10px}
+.empty{text-align:center;color:var(--mu);padding:40px 10px;font-size:14px}
+nav{position:absolute;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));display:flex;gap:4px;background:rgba(18,26,43,.92);backdrop-filter:blur(14px);border:1px solid var(--ln);border-radius:22px;padding:6px;z-index:20}
+nav button{flex:1;background:none;border:0;border-radius:16px;padding:9px 0;color:var(--mu);font-size:11px;font-weight:600;cursor:pointer;display:flex;flex-direction:column;gap:3px;align-items:center}
+nav button i{font-size:17px}nav button.on{color:var(--g);background:rgba(227,185,92,.1)}
+.ov{position:absolute;inset:0;background:var(--bg);z-index:30;overflow-y:auto;padding:0 16px 40px}
+.ov .bar{position:sticky;top:0;background:var(--bg);padding:calc(12px + env(safe-area-inset-top)) 0 12px;display:flex;align-items:center;gap:12px;font-weight:800;z-index:2}
+.x{width:36px;height:36px;border-radius:12px;border:1px solid var(--ln);background:var(--p);cursor:pointer}
+.sec{background:var(--p);border:1px solid var(--ln);border-radius:18px;padding:15px;margin-bottom:12px}.sec h3{margin:0 0 10px;font-size:15px}
+.li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid var(--ln);font-size:13.5px}.li:last-child{border:0;padding-bottom:0}
+.li b{display:block}.li small{color:var(--mu)}.li .pv{color:var(--g);font-weight:800}
+.fi{width:100%;background:#0e1524;border:1px solid var(--ln);border-radius:12px;padding:13px;margin-bottom:9px;outline:0;font-size:14px}.fi:focus{border-color:var(--g)}
+.stars{display:flex;gap:6px;font-size:24px;margin-bottom:10px;color:#34405c}.stars i{cursor:pointer}.stars i.on{color:var(--g)}
+.rv{padding:11px 0;border-top:1px solid var(--ln);font-size:13px}.rv p{margin:4px 0 0;color:var(--mu)}
+.md{position:absolute;inset:0;background:rgba(0,0,0,.7);z-index:50;display:flex;align-items:flex-end}
+.sh{background:var(--p);border-top:1px solid var(--ln);border-radius:24px 24px 0 0;padding:20px 18px calc(22px + env(safe-area-inset-bottom));width:100%;max-height:92%;overflow-y:auto}
+.sh h2{margin:0 0 4px;font-size:19px}.sh .sub{color:var(--mu);font-size:13px;margin-bottom:14px}
+.qr{display:grid;place-items:center;padding:12px;background:#fff;border-radius:16px;width:max-content;margin:10px auto}
+.upi{display:flex;justify-content:space-between;align-items:center;background:#0e1524;border:1px dashed var(--ln);border-radius:12px;padding:11px 13px;font-size:13px;margin:8px 0}
+.amt{display:flex;align-items:center;gap:8px;background:#0e1524;border:1px solid var(--ln);border-radius:14px;padding:6px 14px}.amt span{font-size:22px;color:var(--g);font-weight:800}.amt input{flex:1;background:none;border:0;outline:0;font-size:26px;font-weight:800;padding:8px 0;min-width:0}
+#toast{position:absolute;left:50%;bottom:96px;transform:translate(-50%,20px);background:#1c2640;border:1px solid var(--g);padding:10px 18px;border-radius:30px;font-size:13px;opacity:0;transition:.25s;z-index:99;pointer-events:none;white-space:nowrap;max-width:92%;overflow:hidden;text-overflow:ellipsis}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+:focus-visible{outline:2px solid var(--g);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="app">
+<header><div class="brand"><span class="logo"><i class="fa-solid fa-snowflake"></i></span>GLOBAL SERVICES</div><div class="live" id="live"><i></i><span>Live</span></div></header>
+
+<div class="scroll" id="home">
+  <div class="hero"><h1>AC repair & service, Bhubaneswar</h1><p>Genuine parts, quick visit, clear prices. Call, WhatsApp or pay online.</p></div>
+  
+  <!-- Dynamic Banner Image (Admin se control hoga) -->
+  <img id="main-banner" src="" alt="Offer Banner" style="width:100%; max-height:220px; object-fit:contain; background:#fff; border-radius:14px; margin-bottom:12px; display:none;">
+
+  <label class="srch"><i class="fa-solid fa-magnifying-glass" style="color:var(--mu)"></i><input id="q" placeholder="Search AC repair, servicing, installation" autocomplete="off"><button id="mic" aria-label="Voice search"><i class="fa-solid fa-microphone"></i></button></label>
+  <div class="row"><span><i class="fa-solid fa-location-dot"></i> <b id="loc" style="color:var(--tx);font-weight:600"></b></span><button class="lk" id="det"><i class="fa-solid fa-crosshairs"></i> Detect</button></div>
+  <button class="chip" id="az"><i class="fa-solid fa-arrow-down-a-z"></i> Sort A-Z</button>
+  <div id="list"></div>
+</div>
+
+<div class="scroll hid" id="contact">
+  <div class="hero"><h1>Contact us</h1><p id="cadr"></p></div>
+  <div class="sec">
+    <div class="li"><div><b id="n1"></b><small>Primary booking number</small></div><button class="b gold" style="padding:9px 16px" data-a="c1"><i class="fa-solid fa-phone"></i> Call</button></div>
+    <div class="li"><div><b id="n2"></b><small>Alternate support number</small></div><button class="b gold" style="padding:9px 16px" data-a="c2"><i class="fa-solid fa-phone"></i> Call</button></div>
+    <div class="li"><div><b id="n3"></b><small>WhatsApp chat</small></div><a class="b wa" style="padding:9px 16px" data-wa target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Chat</a></div>
+  </div>
+  <a class="b big gold" data-dir target="_blank" rel="noopener"><i class="fa-solid fa-location-arrow"></i> Get directions</a>
+  <button class="b big line" data-a="enq"><i class="fa-regular fa-paper-plane"></i> Send enquiry</button>
+</div>
+
+<nav>
+  <button class="on" data-tab="home"><i class="fa-solid fa-house"></i>Home</button>
+  <button data-a="enq"><i class="fa-regular fa-paper-plane"></i>Enquire</button>
+  <button data-tab="contact"><i class="fa-solid fa-phone-volume"></i>Contact</button>
+</nav>
+
+<div class="ov hid" id="detail">
+  <div class="bar"><button class="x" data-a="back" aria-label="Back"><i class="fa-solid fa-arrow-left"></i></button>Service details<button class="x" style="margin-left:auto" data-a="share" aria-label="Share"><i class="fa-solid fa-share-nodes"></i></button></div>
+  <div class="sec"><h3>Price list</h3><div id="plist"></div></div>
+  <div class="sec hid" id="locs"><h3>Our locations</h3><div id="llist"></div></div>
+  <div class="sec"><h3>Address</h3><div class="m" style="white-space:normal;margin:0 0 10px" id="adr"></div>
+    <div style="display:flex;gap:8px"><a class="b gold" style="flex:1" data-dir target="_blank" rel="noopener"><i class="fa-solid fa-location-arrow"></i> Directions</a><button class="b line" style="flex:1" data-a="copy"><i class="fa-regular fa-copy"></i> Copy</button></div></div>
+  <div class="sec"><h3>Ask anything</h3><div style="display:flex;gap:8px"><input class="fi" id="ask" style="margin:0" placeholder="Type your question"><button class="b wa" style="padding:0 16px" data-a="ask">Send</button></div></div>
+  <div class="sec"><h3>Reviews <span id="avg" class="bd rt" style="margin:0 0 0 6px"></span></h3>
+    <div class="stars" id="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+    <input class="fi" id="rn" placeholder="Your name"><textarea class="fi" id="rt" rows="2" placeholder="Share your experience"></textarea>
+    <button class="b gold" data-a="rev" style="padding:11px 20px">Post review</button><div id="rvs" style="margin-top:12px"></div></div>
+</div>
+
+<div class="md hid" id="enq" data-close><div class="sh"><h2>Send enquiry</h2><div class="sub">We will call you back shortly.</div>
+  <input class="fi" id="en" placeholder="Your full name" autocomplete="name"><input class="fi" id="ep" type="tel" inputmode="numeric" maxlength="10" placeholder="10-digit mobile number" autocomplete="tel"><input class="fi" id="es" placeholder="Service or message">
+  <button class="b gold big" data-a="sendenq" id="sendenq"><i class="fa-solid fa-paper-plane"></i> Submit enquiry</button></div></div>
+
+<div class="md hid" id="call" data-close><div class="sh"><h2>Call GLOBAL SERVICES</h2><div class="sub">Choose a number</div>
+  <button class="b gold big" data-a="c1" id="cb1"></button><button class="b line big" data-a="c2" id="cb2"></button></div></div>
+
+<div class="md hid" id="pay" data-close><div class="sh"><h2>Pay online</h2><div class="sub" id="psub"></div>
+  <div class="amt"><span>₹</span><input id="pamt" type="number" min="1" inputmode="decimal" aria-label="Amount"></div>
+  <div class="sub" id="pnote" style="margin:6px 2px 0"></div>
+  <div class="qr" id="qr"></div>
+  <div class="upi"><span id="upiid"></span><button class="lk" data-a="cpupi">Copy</button></div>
+  <a class="b gold big" id="upilink"><i class="fa-solid fa-mobile-screen"></i> Open UPI app</a>
+  <button class="b wa big" data-a="paid"><i class="fa-brands fa-whatsapp"></i> I have paid, send confirmation</button></div></div>
+
+<div id="toast"></div>
+</div>
+
+<script>
+const CFG={call:["9090184187","9658086200"],wa:"7751023476",upi:"9658086200@ybl",upiName:"GLOBAL SERVICES"};
+const DEF={name:"Saheed Nagar, Bhubaneswar",address:"Saheed Nagar, Bhubaneswar - 751007, Odisha",map:""};
+const FALL="data:image/svg+xml;utf8,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><rect width="96" height="96" fill="#0f1626"/><text x="48" y="62" font-size="44" text-anchor="middle" fill="#e8b84b">&#10052;</text></svg>');
+const OLD_BIKE="HfcdFqSR";
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'';
+const imgOk=u=>(/^(https?:\/\/|data:image\/)/i.test(u||'')&&String(u).indexOf(OLD_BIKE)<0)?u:FALL;
+const wa=t=>'https://wa.me/91'+CFG.wa+'?text='+encodeURIComponent(t);
+const price=t=>{const m=String(t==null?'':t).replace(/,/g,'').match(/\d+(\.\d+)?/);return m?parseFloat(m[0]):0};
+const isRange=t=>(String(t||'').replace(/,/g,'').match(/\d+/g)||[]).length>1;
+let ready={s:0,i:0};let SV=[],IM=[],LC=[],RV=[],LOC=DEF,sortAZ=false,cur=0,star=5,detected=false,payAmt=0,paySvc='';
+const toast=m=>{const t=$('toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('on'),2400)};
+const mapUrl=l=>safeUrl(l.map)||'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(l.address||l.name);
+
+function watch(ref,set){db.ref(ref).on('value',s=>{const a=[];s.forEach(c=>{a.push({key:c.key,...c.val()})});a.sort((x,y)=>(x.time||0)-(y.time||0));set(a)},e=>toast('Data load nahi hua: '+e.code))}
+watch('jod_services',a=>{SV=a;ready.s=1;render();fill()});
+watch('jod_images',a=>{IM=a;ready.i=1;render()});
+watch('jod_locations',a=>{LC=a;applyLoc();render()});
+watch('jod_reviews',a=>{RV=a;drawReviews()});
+db.ref('.info/connected').on('value',s=>$('live').classList.toggle('on',!!s.val()));
+
+db.ref('jod_settings/banner').on('value', s => {
+  const url = s.val();
+  const b = $('main-banner');
+  if(url) { b.src = url; b.style.display = 'block'; }
+  else { b.style.display = 'none'; }
+});
+
+function applyLoc(){
+  LOC=LC.find(l=>l.main)||LC[0]||DEF;const a=LOC.name||LOC.address;
+  if(!detected)$('loc').textContent='GLOBAL SERVICES, '+a;
+  $('adr').textContent=LOC.address||a;$('cadr').textContent=a;
+  document.querySelectorAll('[data-dir]').forEach(x=>x.href=mapUrl(LOC));
+  $('locs').classList.toggle('hid',LC.length<2);
+  $('llist').innerHTML=LC.map(l=>`<div class="li"><div><b>${esc(l.name)}${l===LOC?' <span class="bd rt" style="margin:0 0 0 4px">Main</span>':''}</b><small>${esc(l.address||'')}${l.extra?' • '+esc(l.extra):''}</small></div><a class="lk" href="${esc(mapUrl(l))}" target="_blank" rel="noopener"><i class="fa-solid fa-location-arrow"></i> Map</a></div>`).join('');
+}
+function render(){
+  if(!ready.s||!ready.i){$('list').innerHTML='<div class="empty">Loading...</div>';return}
+  const q=$('q').value.trim().toLowerCase(),n=Math.max(IM.length,SV.length,1);
+  const nm=k=>String((SV[k]||{}).name||(IM[k]||{}).name||'');
+  const ord=[...Array(n).keys()];if(sortAZ)ord.sort((a,b)=>nm(a).localeCompare(nm(b)));
+  let h='';
+  for(const i of ord){
+    const s=SV[i]||null,im=IM[i]||null;
+    if(q&&!(((im||{}).name||'')+' '+((s||{}).name||'')+' '+((s||{}).price||'')+' '+((s||{}).extra||'')+' global services ac').toLowerCase().includes(q))continue;
+    const title=i===0?'GLOBAL SERVICES':((im&&im.name)||(s&&s.name)||'GLOBAL SERVICES');
+    h+=`<div class="card"><div class="top" data-a="open"><img class="ph" src="${esc(imgOk(im&&im.src))}" alt="" loading="lazy"><div class="inf"><h2>${esc(title)}</h2><div class="m"><i class="fa-solid fa-location-dot"></i> ${esc(LOC.name)}</div><span class="bd"><i class="fa-solid fa-certificate"></i> Service provider</span> ${ratingChip()}</div></div>
+    ${s?`<div class="pr"><span>${esc(s.name)}${s.extra?`<small>${esc(s.extra)}</small>`:''}</span><b>${esc(s.price)}</b></div>`:''}
+    <div class="acts">${s&&price(s.price)?`<button class="b gold" data-a="pay" data-i="${i}"><i class="fa-solid fa-indian-rupee-sign"></i> Pay</button>`:`<button class="b gold" data-a="enq" data-s="${esc(s?s.name:'')}"><i class="fa-regular fa-paper-plane"></i> Enquire</button>`}
+    <button class="b" data-a="callm"><i class="fa-solid fa-phone"></i> Call</button>
+    <a class="b wa" target="_blank" rel="noopener" href="${wa('Hi GLOBAL SERVICES, mujhe '+((s&&s.name)||(im&&im.name)||'AC repair aur servicing')+' ki details chahiye')}"><i class="fa-brands fa-whatsapp"></i> Chat</a>
+    <button class="b line" data-a="open">Details</button></div></div>`;
+  }
+  $('list').innerHTML=h||'<div class="empty">Kuch nahi mila. Dusra naam try karo.</div>';
+}
+function ratingChip(){if(!RV.length)return'';const a=RV.reduce((t,r)=>t+(+r.stars||0),0)/RV.length;return`<span class="bd rt">${a.toFixed(1)} <i class="fa-solid fa-star"></i> ${RV.length}</span>`}
+function fill(){
+  $('plist').innerHTML=SV.length?SV.map((p,i)=>`<div class="li"><div><b>${esc(p.name)}</b>${p.extra?`<small>${esc(p.extra)}</small>`:''}<span class="pv">${esc(p.price)}</span></div><div style="display:flex;gap:6px">${price(p.price)?`<button class="b gold" style="padding:8px 12px" data-a="pay" data-i="${i}">Pay</button>`:''}<button class="b line" style="padding:8px 12px" data-a="enq" data-s="${esc(p.name)}">Enquire</button></div></div>`).join(''):'<div class="m">Prices jaldi aayenge. Call karke pooch lo.</div>';
+}
+function drawReviews(){
+  $('avg').textContent=RV.length?ratingChip().replace(/<[^>]+>/g,'').trim()+' ★':'No ratings yet';
+  $('rvs').innerHTML=RV.slice().reverse().map(r=>`<div class="rv"><b>${esc(r.name)}</b> <span style="color:var(--g)">${'★'.repeat(+r.stars||0)}</span><p>${esc(r.text)}</p></div>`).join('');render();
+}
+function setStars(n){star=n;document.querySelectorAll('#stars i').forEach((s,i)=>s.classList.toggle('on',i<n))}
+document.querySelectorAll('#stars i').forEach((s,i)=>s.onclick=()=>setStars(i+1));setStars(5);
+
+function openPay(i){
+  const s=SV[i];if(!s)return;payAmt=price(s.price);paySvc=s.name||'Service';
+  $('psub').textContent=paySvc+' • '+s.price;$('pamt').value=payAmt;$('upiid').textContent=CFG.upi;
+  $('pnote').textContent=isRange(s.price)?'Price range hai. Final amount tay karke yahan daalo.':'';
+  upd();$('pay').classList.remove('hid');
+}
+function upiUrl(a){return'upi://pay?pa='+encodeURIComponent(CFG.upi)+'&pn='+encodeURIComponent(CFG.upiName)+'&am='+a.toFixed(2)+'&cu=INR&tn='+encodeURIComponent(paySvc.slice(0,50))}
+function upd(){
+  const a=parseFloat($('pamt').value)||0;payAmt=a;
+  $('upilink').href=a>0?upiUrl(a):'#';$('upilink').style.opacity=a>0?1:.5;
+  const q=$('qr');q.innerHTML='';if(a>0&&window.QRCode)new QRCode(q,{text:upiUrl(a),width:170,height:170,colorDark:'#0a0f1a',colorLight:'#fff'});
+}
+$('pamt').oninput=upd;
+$('upilink').onclick=e=>{if(!(payAmt>0)){e.preventDefault();toast('Pehle amount daalo')}else setTimeout(()=>toast('App na khule to QR scan karo ya UPI ID copy karo'),1200)};
+
+function close(){document.querySelectorAll('.md').forEach(m=>m.classList.add('hid'))}
+function tab(t){['home','contact'].forEach(x=>$(x).classList.toggle('hid',x!==t));document.querySelectorAll('nav [data-tab]').forEach(b=>b.classList.toggle('on',b.dataset.tab===t));$('detail').classList.add('hid');$(t).scrollTop=0}
+function dial(n){location.href='tel:+91'+n;close()}
+document.addEventListener('click',e=>{
+  const m=e.target;if(m.dataset&&m.hasAttribute('data-close')&&m===e.target){close();return}
+  const t=m.closest('[data-tab]');if(t){tab(t.dataset.tab);return}
+  const b=m.closest('[data-a]');if(!b)return;const a=b.dataset.a;
+  if(a==='open'){$('detail').classList.remove('hid');$('detail').scrollTop=0}
+  else if(a==='back')$('detail').classList.add('hid');
+  else if(a==='callm'){$('call').classList.remove('hid')}
+  else if(a==='c1')dial(CFG.call[0]);else if(a==='c2')dial(CFG.call[1]);
+  else if(a==='enq'){$('es').value=b.dataset.s||'General enquiry';$('enq').classList.remove('hid')}
+  else if(a==='pay')openPay(+b.dataset.i);
+  else if(a==='cpupi')copy(CFG.upi,'UPI ID copy ho gayi');
+  else if(a==='copy')copy($('adr').textContent,'Address copy ho gaya');
+  else if(a==='paid')window.open(wa('Hi GLOBAL SERVICES, maine '+paySvc+' ke liye ₹'+payAmt+' pay kar diya hai. Screenshot bhej raha hu.'),'_blank');
+  else if(a==='ask'){const t=$('ask').value.trim();if(!t)return toast('Pehle message likho');window.open(wa(t),'_blank');$('ask').value=''}
+  else if(a==='share'){const d={title:'GLOBAL SERVICES',text:'AC repair & service in Bhubaneswar',url:location.href};navigator.share?navigator.share(d).catch(()=>{}):copy(location.href,'Link copy ho gaya')}
+  else if(a==='rev')postReview();else if(a==='sendenq')sendEnq();
+});
+function copy(t,msg){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>toast(msg),()=>toast(t))}
+function postReview(){
+  const name=$('rn').value.trim()||'Customer',text=$('rt').value.trim();if(!text)return toast('Pehle comment likho');
+  db.ref('jod_reviews').push({name,text,stars:star,time:Date.now()}).then(()=>{$('rn').value=$('rt').value='';toast('Review post ho gaya')}).catch(()=>toast('Review save nahi hua, dobara try karo'));
+}
+function sendEnq(){
+  const name=$('en').value.trim(),phone=$('ep').value.trim(),msg=$('es').value.trim();
+  if(!name)return toast('Apna naam daalo');if(!/^[6-9]\d{9}$/.test(phone))return toast('Sahi 10-digit mobile number daalo');if(!msg)return toast('Service ya message likho');
+  const b=$('sendenq');b.disabled=true;
+  db.ref('jod_enquiries').push({name,phone,msg,time:Date.now()}).then(()=>{toast('Enquiry bhej di gayi. Hum jaldi call karenge');$('en').value=$('ep').value='';close()}).catch(()=>toast('Enquiry nahi gayi, dobara try karo')).finally(()=>b.disabled=false);
+}
+$('q').oninput=render;$('az').onclick=function(){sortAZ=!sortAZ;this.classList.toggle('on',sortAZ);render()};
+$('det').onclick=function(){
+  if(!navigator.geolocation)return toast('Is browser me location support nahi hai');
+  const b=this;b.disabled=true;$('loc').textContent='Detecting...';
+  navigator.geolocation.getCurrentPosition(async p=>{
+    let pl='';try{const a=(await(await fetch('https://nominatim.openstreetmap.org/reverse?format=json&zoom=14&lat='+p.coords.latitude+'&lon='+p.coords.longitude)).json()).address||{};pl=[a.suburb||a.neighbourhood||a.village,a.city||a.town||a.state_district].filter(Boolean).join(', ')}catch(e){}
+    detected=true;$('loc').textContent='Your location: '+(pl||'Detected');b.disabled=false;
+  },()=>{b.disabled=false;detected=false;applyLoc();toast('Location allow karo aur dobara try karo')},{timeout:10000});
+};
+$('mic').onclick=function(){
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR)return toast('Is browser me mic support nahi hai');
+  const r=new SR(),b=this;r.lang='en-IN';b.classList.add('listening');
+  r.onresult=e=>{$('q').value=e.results[0][0].transcript;render()};r.onend=r.onerror=()=>b.classList.remove('listening');r.start();
+};
+$('n1').textContent='+91 '+CFG.call[0];$('n2').textContent='+91 '+CFG.call[1];$('n3').textContent='+91 '+CFG.wa;
+$('cb1').textContent='+91 '+CFG.call[0];$('cb2').textContent='+91 '+CFG.call[1];
+document.querySelectorAll('[data-wa]').forEach(a=>a.href=wa('Hi GLOBAL SERVICES, mujhe AC repair aur servicing ke baare mein jankari chahiye'));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){close();$('detail').classList.add('hid')}});
+applyLoc();render();fill();
+</script>
+
+<!-- PWA Service Worker Registration -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .then((reg) => console.log('Service Worker Registered!', reg))
+        .catch((err) => console.log('Service Worker Registration Failed:', err));
+    });
+  }
+</script>
+
+</body>
+</html>
