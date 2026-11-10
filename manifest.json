@@ -1,0 +1,21 @@
+{
+  "name": "GLOBAL SERVICE",
+  "short_name": "GLOBAL SERVICE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1a",
+  "theme_color": "#0a0f1a",
+  "description": "AC repair and service in Bhubaneswar.",
+  "icons": [
+    {
+      "src": "YOUR_LOGO_URL_HERE",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": " https://i.ibb.co/20ww0njW/file-00000000656c8210aa5f63d1bcbde23a.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
